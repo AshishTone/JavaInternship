@@ -1,2 +1,2 @@
-# Internship_Sunbeam_Pune
+# Java_Internship_Sunbeam_Pune
 Repo for internship submissions
