@@ -1,162 +1,30 @@
-0:01:49 Tab2 StartNav14 #typed
-0:01:49 Tab2 FinishNav14
-0:01:49 Tab2 PageLoad
-0:01:51 Tab2 StartNav15 #typed
-0:01:51 Tab2 FinishNav15
-0:01:51 Tab2 PageLoad
-0:01:53 Tab2 StartNav16 #typed
-0:01:53 Tab2 FinishNav16
-0:01:53 Tab2 PageLoad
-0:01:55 Tab2 StartNav17 #typed
-0:01:55 Tab2 FinishNav17
-0:01:55 Tab2 PageLoad
-0:01:59 Tab2 StartNav18 #typed
-0:01:59 Tab2 FinishNav18
-0:01:59 Tab2 PageLoad
-0:02:00 Tab2 StartNav19 #typed
-0:02:00 Tab2 FinishNav19
-0:02:00 Tab2 PageLoad
-0:02:01 Tab2 StartNav20 #typed
-0:02:01 Tab2 FinishNav20
-0:02:01 Tab2 PageLoad
-0:02:03 Tab2 StartNav21 #typed
-0:02:03 Tab2 FinishNav21
-0:02:03 Tab2 PageLoad
-0:02:05 Tab2 StartNav22 #typed
-0:02:05 Tab2 FinishNav22
-0:02:05 Tab2 PageLoad
-0:02:06 Tab2 StartNav23 #typed
-0:02:06 Tab2 FinishNav23
-0:02:06 Tab2 PageLoad
-0:02:06 Tab2 StartNav24 #typed
-0:02:06 Tab2 FinishNav24
-0:02:06 Tab2 PageLoad
-0:02:07 Tab2 StartNav25 #typed
-0:02:07 Tab2 FinishNav25
-0:02:07 Tab2 PageLoad
-0:02:07 Tab2 StartNav26 #typed
-0:02:07 Tab2 FinishNav26
-0:02:07 Tab2 PageLoad
-0:03:53 Tab2 StartNav27 #typed
-0:03:53 Tab2 FinishNav27
-0:03:53 Tab2 PageLoad
-0:04:08 Tab2 StartNav28 #typed
-0:04:08 Tab2 FinishNav28
-0:04:08 Tab2 PageLoad
-0:04:15 Tab2 StartNav29 #typed
-0:04:15 Tab2 FinishNav29
-0:04:15 Tab2 PageLoad
-0:04:16 Tab2 StartNav30 #typed
-0:04:16 Tab2 FinishNav30
-0:04:16 Tab2 PageLoad
-0:04:19 Tab2 StartNav31 #typed
-0:04:19 Tab2 FinishNav31
-0:04:19 Tab2 PageLoad
-0:04:28 Tab2 StartNav32 #typed
-0:04:28 Tab2 FinishNav32
-0:04:28 Tab2 PageLoad
-0:05:00 Microsoft.NewBrowser_Popup
-0:05:00 Microsoft.BrowserList.AddBrowser
-0:05:00 Browser3 Insert active Tab3 at 0
-0:05:00 Tab3 StartNav33 #auto_toplevel
-0:05:00 Tab3 StartNav34 #typed
-0:05:00 Tab3 FinishNav33
-0:05:00 Tab3 PageLoad
-0:05:00 Tab3 FinishNav34
-0:05:00 Tab3 PageLoad
-0:05:02 Tab3 StartNav35 #typed
-0:05:02 Tab3 FinishNav35
-0:05:02 Tab3 PageLoad
-0:05:02 Tab3 StartNav36 #typed
-0:05:02 Tab3 FinishNav36
-0:05:02 Tab3 PageLoad
-0:05:06 Tab3 StartNav37 #typed
-0:05:06 Tab3 FinishNav37
-0:05:06 Tab3 PageLoad
-0:05:09 Tab3 StartNav38 #typed
-0:05:09 Tab3 FinishNav38
-0:05:09 Tab3 PageLoad
-0:05:13 Tab3 StartNav39 #typed
-0:05:13 Tab3 FinishNav39
-0:05:13 Tab3 PageLoad
-0:05:23 Tab3 StartNav40 #typed
-0:05:23 Tab3 FinishNav40
-0:05:23 Tab3 PageLoad
-0:05:23 Tab3 StartNav41 #typed
-0:05:23 Tab3 FinishNav41
-0:05:23 Tab3 PageLoad
-0:05:26 Tab3 StartNav42 #typed
-0:05:26 Tab3 FinishNav42
-0:05:26 Tab3 PageLoad
-0:05:39 Tab2 StartNav43 #typed
-0:05:39 Tab2 FinishNav43
-0:05:39 Tab2 PageLoad
-0:05:40 Tab2 StartNav44 #typed
-0:05:40 Tab2 FinishNav44
-0:05:40 Tab2 PageLoad
-0:05:47 Tab2 StartNav45 #typed
-0:05:48 Tab2 FinishNav45
-0:05:48 Tab2 PageLoad
-0:05:54 Tab2 StartNav46 #typed
-0:05:54 Tab2 FinishNav46
-0:05:54 Tab2 PageLoad
-0:06:11 Tab2 StartNav47 #typed
-0:06:11 Tab2 FinishNav47
-0:06:11 Tab2 PageLoad
-0:06:12 Tab2 StartNav48 #typed
-0:06:12 Tab2 FinishNav48
-0:06:12 Tab2 PageLoad
-0:06:14 Tab2 StartNav49 #typed
-0:06:14 Tab2 FinishNav49
-0:06:14 Tab2 PageLoad
-0:06:22 Tab2 StartNav50 #typed
-0:06:22 Tab2 FinishNav50
-0:06:22 Tab2 PageLoad
-0:06:23 Tab2 StartNav51 #typed
-0:06:23 Tab2 FinishNav51
-0:06:23 Tab2 PageLoad
-0:06:26 Tab2 StartNav52 #typed
-0:06:26 Tab2 FinishNav52
-0:06:26 Tab2 PageLoad
-0:07:06 Tab2 StartNav53 #typed
-0:07:06 Tab2 FinishNav53
-0:07:06 Tab2 PageLoad
-0:07:07 Tab2 StartNav54 #typed
-0:07:07 Tab2 FinishNav54
-0:07:07 Tab2 PageLoad
-0:07:25 Tab2 StartNav55 #typed
-0:07:25 Tab2 FinishNav55
-0:07:25 Tab2 PageLoad
-0:07:44 Tab2 StartNav56 #typed
-0:07:44 Tab2 FinishNav56
-0:07:44 Tab2 PageLoad
-0:07:45 Tab2 StartNav57 #typed
-0:07:45 Tab2 FinishNav57
-0:07:45 Tab2 PageLoad
-0:07:47 Tab2 StartNav58 #typed
-0:07:47 Tab2 FinishNav58
-0:07:47 Tab2 PageLoad
-0:08:08 Tab2 StartNav59 #typed
-0:08:08 Tab2 FinishNav59
-0:08:08 Tab2 PageLoad
-0:08:13 Tab2 StartNav60 #typed
-0:08:13 Tab2 FinishNav60
-0:08:13 Tab2 PageLoad
-0:08:19 Tab2 StartNav61 #typed
-0:08:19 Tab2 FinishNav61
-0:08:19 Tab2 PageLoad
-0:08:19 Tab2 StartNav62 #typed
-0:08:19 Tab2 FinishNav62
-0:08:19 Tab2 PageLoad
-0:08:22 Tab2 StartNav63 #typed
-0:08:22 Tab2 FinishNav63
-0:08:22 Tab2 PageLoad
-0:08:25 Tab2 StartNav64 #typed
-0:08:25 Tab2 FinishNav64
-0:08:25 Tab2 PageLoad
-0:09:34 Tab2 StartNav65 #typed
-0:09:34 Tab2 FinishNav65
-0:09:34 Tab2 PageLoad
-0:09:56 Tab2 StartNav66 #typed
-0:09:56 Tab2 FinishNav66
-0:09:56 Tab2 PageLoad
+0:06:47 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+0:06:47 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+0:06:47 Tab3 RenderProcessGone
+0:06:47 Microsoft.UnloadController.ClearUnloadState
+0:06:47 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+0:06:47 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+0:06:47 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+0:06:47 Microsoft.UnloadController.ClearUnloadState
+0:06:47 Browser3 Close Tab3 at 0
+0:06:47 Tab3 WebContentsDestroyed
+0:06:47 Microsoft.UnloadController.TabStripEmpty
+0:06:47 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:06:47 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:06:47 Microsoft.Shutdown.OnWindowClosing
+0:06:47 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:06:47 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:06:47 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+0:06:47 Widget Closed: BrowserWidget
+0:06:47 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:06:47 Microsoft.Shutdown.OnWindowClosing
+0:06:47 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+0:06:47 Microsoft.Last_Browser_Removed
+0:06:47 Microsoft.Shutdown.ShutdownIfNoBrowsers
+0:06:47 Microsoft.Shutdown.SetTryingToQuit_Quitting
+0:06:47 Microsoft.Shutdown.NotifyAppTerminating
+0:06:47 Microsoft.Shutdown.OnAppExiting
+0:06:47 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura
+0:06:47 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura.NotificationUIManager_StartShutdown
+0:06:47 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura.CloseAllSecondaryWidgets
+0:06:47 Shutdown

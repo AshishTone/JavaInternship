@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div>
+		<h1>Student Menu</h1>
+		<h2>What action you want to perform</h2>
+		<form action="studentMenu.jsp" method = "post" >
+			<input type = "radio" name = "option" value = "1" class = "radio-button"> <label for ="1">View quizzes</label>
+			<br><br>
+			<input type = "radio" name = "option" value = "2" class = "radio-button"> <span>Take quiz</span>
+			<br><br>
+			<input type = "radio" name = "option" value = "3" class = "radio-button"> <span>View score</span>
+			<br><br>
+			<input type = "radio" name = "option" value = "4" class = "radio-button" > <span>Logout</span>
+			<br><br>
+			<input type = "submit" value = "Submit">
+		</form>
+	</div>
+	
+	<div>
+		<jsp:useBean id="stu" class = "com.app.student.beans.studentMenuBean"></jsp:useBean>
+		<jsp:setProperty property="*" name="stu"/>
+		
+		<c:choose>
+			<c:when test="${stu.getOption() == '1' }">
+				<c:redirect url = "ListQuizzes.jsp"></c:redirect>
+			</c:when>
+			<c:when test="${stu.getOption() == '2' }">
+				<c:redirect url = "TakeQuiz.jsp"></c:redirect>
+			</c:when>
+			<c:when test="${stu.getOption() == '3' }">
+				<c:redirect url = "ViewScore.jsp"></c:redirect>
+			</c:when>
+			<c:when test="${stu.getOption() == '4' }">
+				<c:redirect url = "index.jsp"></c:redirect>
+			</c:when>
+		</c:choose>
+	</div>
+</body>
+</html>

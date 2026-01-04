@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+            <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/styles.css" />
+
+</head>
+<body>
+	<div class="mainBody">
+		<jsp:useBean id="hab" class = "com.app.student.beans.hasAttemptedBefore"></jsp:useBean>
+		<jsp:setProperty property="quizId" name="hab" param = "quizId"/>
+		<jsp:setProperty property="studId" name="hab" param = "studId"/>
+	
+		<form action="AttemptById.jsp" method = "post">
+		<input type="hidden" name="quizId" value="${param.quizId}">
+		<p> Taking quiz id: <%=request.getParameter("quizId")%></p>
+		<input type="submit" value="Confirm Attempt" style = "height: 100px; width: 200px; background-color: green; color: white;"> 
+		</form>
+	</div>
+</body>
+</html>

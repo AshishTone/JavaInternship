@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/styles.css" />
+
+</head>
+<body>
+	<%
+	int total = Integer.parseInt(request.getParameter("total"));
+	int score = 0;
+	for (int i = 0; i < total; i++) {
+		String selected = request.getParameter("q" + i);
+		String correct = request.getParameter("correct" + i);
+		if (selected != null && selected.equals(correct)) {
+			score++;
+		}
+	}
+	%>
+	<jsp:useBean id="ssb" class="com.app.student.beans.saveScoreBean"></jsp:useBean>
+	<jsp:setProperty property="quizId" name="ssb" param="${quizId }" />
+	<jsp:setProperty property="studId" name="ssb" param="" />
+	<jsp:setProperty property="score" name="ssb" param="" />
+	<jsp:setProperty property="total" name="ssb" param="" />
+
+	<h2>Quiz Result</h2>
+	<p>
+		Total Questions:
+		<%=total%></p>
+	<p>
+		Score:
+		<%=score%></p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="mainBody">
+		<jsp:useBean id="aqb" class="com.app.student.beans.AttemptQuizBean"></jsp:useBean>
+		<jsp:setProperty property="quizId" name="aqb" param="quizId" />
+		<p>
+			Quiz ID:
+			<%=request.getParameter("quizId")%>
+		</p>
+		<h2>Attempting quiz with id ${aqb.quizId}</h2>
+		<%
+		int count = 1;
+		%>>
+		<form action="" method="post">
+			<c:forEach var="i" items="${aqb.list}">
+			${count}) ${i.text} <br>
+				<input type="radio" name="${count}" value="A" class="radio-button">
+				<label for="${count}">${i.a}</label>
+				<input type="radio" name="${count}" value="B" class="radio-button">
+				<label for="${count}">${i.a}</label>
+				<input type="radio" name="${count}" value="C" class="radio-button">
+				<label for="${count}">${i.a}</label>
+				<input type="radio" name="${count}" value="D" class="radio-button">
+				<label for="${count}">${i.a}</label>
+				
+				<%
+				count++;
+				%>
+			</c:forEach>
+
+		</form>
+	</div>
+</body>
+</html>

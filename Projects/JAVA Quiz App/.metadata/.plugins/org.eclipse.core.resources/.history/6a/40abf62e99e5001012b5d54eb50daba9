@@ -1,0 +1,18 @@
+package com.app.student.beans;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+
+public class saveScoreBean {
+	public int quizId;
+	public int studId;
+	public int score;
+	public int total;
+	
+	public void saveScoreBean() {
+		
+	}
+}

@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+        <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+        <%@ page import="com.app.student.beans.SaveScoreBean" %>
+        
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:useBean id="ssb" class = "com.app.student.beans.SaveScoreBean"></jsp:useBean>
+	<jsp:setProperty name="ssb" property="*"  />
+	
+	${ssb.saveAttempt()}
+	<p> id: ${lb.user.id }</p>
+	<c:redirect url = "studentMenu.jsp"></c:redirect>
+</body>
+</html>

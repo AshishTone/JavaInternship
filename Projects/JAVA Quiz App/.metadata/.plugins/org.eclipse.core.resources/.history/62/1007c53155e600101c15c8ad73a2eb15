@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.mainBody {
+	align-content: center;
+	text-align: center;
+}
+
+.submit1 {
+	height: 30px;
+	color: green;
+}
+
+.radio-button{
+	zoom:1.6;
+}
+
+table, th, td  {
+width: 60%;
+	border: 2px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  padding: 10px;
+}
+
+.app{
+	float: left;
+}
+
+.app-left{
+	float: right;
+}
+
+
+
+

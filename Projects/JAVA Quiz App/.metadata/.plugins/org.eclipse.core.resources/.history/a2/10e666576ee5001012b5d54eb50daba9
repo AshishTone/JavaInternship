@@ -1,0 +1,26 @@
+package com.app.admin.beans;
+
+import com.app.dao.QuizDao;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+
+public class DeleteQuizBean {
+	int delId;
+	public DeleteQuizBean() {
+		
+	}
+	
+	void deleteById() {
+		try {
+			QuizDao qd = new QuizDao();
+			deleteQuiz
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

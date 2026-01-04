@@ -1,0 +1,5 @@
+package com.app.admin.beans;
+
+public class ViewResultBean {
+
+}

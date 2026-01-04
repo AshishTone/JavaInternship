@@ -1,0 +1,22 @@
+package com.app.admin.beans;
+
+import java.util.List;
+
+import com.app.model.Attempt;
+
+public class ViewResultBean {
+	public List<Attempt> list;
+	
+	public ViewResultBean() {
+		
+	}
+	
+	public void loadAttempts() {
+		try {
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

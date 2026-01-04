@@ -1,0 +1,5 @@
+package com.app.student.beans;
+
+public class saveScoreBean {
+
+}

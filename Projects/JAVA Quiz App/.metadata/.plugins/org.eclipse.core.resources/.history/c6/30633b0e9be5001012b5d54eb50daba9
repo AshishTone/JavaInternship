@@ -1,0 +1,34 @@
+package com.app.student.beans;
+
+import com.app.dao.AttemptDao;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+
+public class saveScoreBean {
+	public int quizId;
+	public int studId;
+	public int score;
+	public int total;
+	
+	public void saveScoreBean() {
+		
+	}
+	
+	public void saveAttempt() {
+		try {
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		AttemptDao at = new AttemptDao();
+		
+		System.out.println(quizId);
+		System.out.println(studId);
+		System.out.println(score);
+		System.out.println(total);
+	}
+}

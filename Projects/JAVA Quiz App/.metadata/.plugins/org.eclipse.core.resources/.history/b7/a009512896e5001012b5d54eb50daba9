@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Attempt Quiz</title>
+</head>
+<body>
+
+<div class="mainBody">
+    <jsp:useBean id="aqb" class="com.app.student.beans.AttemptQuizBean" />
+    <jsp:setProperty name="aqb" property="quizId" param="quizId" />
+
+    <p>Quiz ID: ${aqb.quizId}</p>
+    <h2>Attempting quiz with id ${aqb.quizId}</h2>
+    ${aqb.loadList() }
+    <form action="saveScore.jsp" method="post">
+        <input type="hidden" name="quizId" value="${aqb.quizId}">
+        <input type="hidden" name="total" value="${fn:length(aqb.list)}">
+
+        <c:forEach var="q" items="${aqb.list}" varStatus="s">
+            <p><b>${s.index + 1}) ${q.text}</b></p>
+            <input type="radio" name="q${s.index}" value="A" required> ${q.a}<br>
+            <input type="radio" name="q${s.index}" value="B"> ${q.b}<br>
+            <input type="radio" name="q${s.index}" value="C"> ${q.c}<br>
+            <input type="radio" name="q${s.index}" value="D"> ${q.d}<br>
+            <input type="hidden" name="correct${s.index}" value="${q.correct}">
+        </c:forEach>
+        <input type="submit" value="Submit Quiz">
+    </form>
+</div>
+
+</body>
+</html>

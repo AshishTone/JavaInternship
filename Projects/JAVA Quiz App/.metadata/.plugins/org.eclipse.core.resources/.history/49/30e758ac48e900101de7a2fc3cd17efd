@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz Result</title>
+<link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+	<%
+	
+	int total = Integer.parseInt(request.getParameter("total"));
+	int score = 0;
+
+	for (int i = 0; i < total; i++) {
+		String selected = request.getParameter("q" + i);
+		String correct = request.getParameter("correct" + i);
+
+		if (selected != null && selected.equals(correct)) {
+			score++;
+		}
+	}
+	request.setAttribute("score", score);
+	request.setAttribute("total", total);
+	%>
+	<div class = "mainBody">
+	<h2>Quiz Result</h2>
+	<p>Total Questions: ${total}</p>
+	<p>Score: ${score}</p>
+	<h1>Quiz Completed!</h1>
+	
+	<form action="saveScore.jsp" method="post">
+		<input type="hidden" name="quizId" value="${param.quizId}"> 
+		<input type="hidden" name="studId" value="${lb.user.id}"> 
+		<input type="hidden" name="score" value="${score}"> 
+		<input type="hidden" name="total" value="${total}"> 
+		<input type="submit" value="Go back to Student Menu">
+	</form>
+	
+	</div>
+</body>
+</html>

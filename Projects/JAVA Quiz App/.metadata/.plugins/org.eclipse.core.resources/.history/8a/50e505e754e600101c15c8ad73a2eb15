@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+.mainBody {
+	align-content: center;
+	text-align: center;
+}
+
+.submit1 {
+	height: 30px;
+	color: green;
+}
+
+.radio-button{
+	zoom:1.6;
+}
+
+table, th, td  {
+width: 60%;
+	border: 2px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  padding: 10px;
+}
+
+.app{
+	float: left;
+}
+
+.app-left{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between; /* pushes left and right apart */
+  align-items: center;            /* vertically centers items */
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar .app {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  gap: 15px; /* spacing between items */
+}
+
+.nav-right p,
+.nav-right a {
+  color: #f2f2f2;
+  margin: 0;
+  text-decoration: none;
+}
+.nav-right a:hover {
+  color: #04AA6D;
+}

@@ -1,0 +1,22 @@
+package com.app.student.beans;
+
+import java.util.List;
+
+import com.app.model.Questions;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+
+public class AttemptQuizBean {
+	public int quizId;
+	public List<Questions> list;
+	
+	public AttemptQuizBean() {
+		
+	}
+	
+	
+}

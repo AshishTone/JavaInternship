@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
     <libraryInfo home="C:\Program Files\Java\jdk-17" version="17.0.12"/>
-    <libraryInfo home="C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot" version="17.0.13"/>
-    <libraryInfo home="E:\sts-4.30.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre" version="21.0.6"/>
     <libraryInfo home="C:\Program Files\Java\jre-1.8" version="1.8.0_401">
         <bootpath>
             <entry path="C:\Program Files\Java\jre-1.8\lib\resources.jar"/>
@@ -21,20 +19,8 @@
             <entry path="C:\Program Files\Java\jre-1.8\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
-    <libraryInfo home="E:\Engineering\sample\sts-4.31.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre" version="21.0.7"/>
-    <libraryInfo home="C:\Program Files\Java\jdk-21" version="21.0.5"/>
-    <libraryInfo home="E:\sts-4.30.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529" version="21.0.6">
-        <bootpath>
-            <entry path="null"/>
-        </bootpath>
-        <extensionDirs>
-            <entry path="null"/>
-        </extensionDirs>
-        <endorsedDirs>
-            <entry path="null"/>
-        </endorsedDirs>
-    </libraryInfo>
-    <libraryInfo home="E:\Engineering\sample\sts-4.31.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916" version="21.0.7">
+    <libraryInfo home="C:\Program Files\Java\jdk-21" version="21.0.8"/>
+    <libraryInfo home="C:\Program Files\Java\jdk-21\bin" version="21.0.8">
         <bootpath>
             <entry path="null"/>
         </bootpath>

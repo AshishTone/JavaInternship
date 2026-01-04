@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%=
+			request.getParameter("quizId")
+			request.getParameter("studId")
+			request.getParameter("total")
+			request.getParameter("score")
+	%>
+	<jsp:useBean id="ssb" class = "com.app.student.beans.SaveScoreBean"></jsp:useBean>
+	<jsp:setProperty property="*" name="ssb"/>
+	
+	${ssb.saveAttempt()}
+</body>
+</html>

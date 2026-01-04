@@ -1,0 +1,15 @@
+package com.app.student.beans;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+
+public class hasAttemptedBefore {
+	private int quizId;
+	
+	public hasAttemptedBefore() {
+		
+	}
+}

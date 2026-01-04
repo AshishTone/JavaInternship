@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<h2>catching title and path of .txt</h2>
+		<jsp:useBean id="cq" class="com.app.admin.beans.createQuizBean"></jsp:useBean>
+		<jsp:setProperty property="*" name="cq" />
+		
+		<input type="hidden" name="delId" value="deleting"/>
+		
+
+	</div>
+
+</body>
+</html>

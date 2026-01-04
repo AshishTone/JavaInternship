@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="mainBody">
+		<form action="AttemptById.jsp" method = "post">
+		<input type="hidden" name="quizId" value="${param.delId}">
+		<p> deleting id: <%=request.getParameter("delId")%></p>
+		<input type="submit" value="Confirm Attempt" style = "height: 100px; width: 200px; background-color: green; color: white;"> 
+		</form>
+	</div>
+</body>
+</html>

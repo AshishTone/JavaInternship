@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz Result</title>
+<link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+	<%
+	int total = Integer.parseInt(request.getParameter("total"));
+	int score = 0;
+
+	for (int i = 0; i < total; i++) {
+		String selected = request.getParameter("q" + i);
+		String correct = request.getParameter("correct" + i);
+
+		if (selected != null && selected.equals(correct)) {
+			score++;
+		}
+	}
+
+	request.setAttribute("score", score);
+	request.setAttribute("total", total);
+	%>
+
+	<jsp:useBean id="ssb" class="com.app.student.beans.saveScoreBean"></jsp:useBean>
+
+	<jsp:setProperty name="ssb" property="quizId" value="${param.quizId}" />
+	<jsp:setProperty name="ssb" property="studId" value="${param.studId}" />
+	<jsp:setProperty name="ssb" property="score" value="${score}" />
+	<jsp:setProperty name="ssb" property="total" value="${total}" />
+
+	<form action="saveScore.jsp" method="post">
+		<input type="hidden" name="" value=""> 
+		<input type="hidden" name="" value=""> 
+		<input type="hidden" name="" value="">
+		<input type="hidden" name="" value="">
+
+	</form>
+
+	<h2>Quiz Result</h2>
+	<p>Total Questions: ${total}</p>
+	<p>Score: ${score}</p>
+
+</body>
+</html>

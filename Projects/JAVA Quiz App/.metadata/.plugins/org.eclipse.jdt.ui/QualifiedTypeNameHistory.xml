@@ -1,35 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="com.app.menu.MainMenu"/>
-    <fullyQualifiedTypeName name="com.app.service.AdminService"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.DbDoc"/>
-    <fullyQualifiedTypeName name="com.app.menu.AdminMenu"/>
-    <fullyQualifiedTypeName name="com.app.model.User"/>
-    <fullyQualifiedTypeName name="com.app.menu.StudentMenu"/>
-    <fullyQualifiedTypeName name="com.app.util.QuestionFileParser"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.x.protobuf.MysqlxCrud.Insert"/>
-    <fullyQualifiedTypeName name="com.app.util.Dbutil"/>
-    <fullyQualifiedTypeName name="java.awt.List"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="com.app.model.Quiz"/>
+    <fullyQualifiedTypeName name="com.app.admin.beans.DeleteQuizBean"/>
     <fullyQualifiedTypeName name="com.app.dao.QuizDao"/>
-    <fullyQualifiedTypeName name="com.app.service.StudentService"/>
-    <fullyQualifiedTypeName name="com.app.dao.QuestionsDao"/>
-    <fullyQualifiedTypeName name="sun.security.jca.GetInstance"/>
-    <fullyQualifiedTypeName name="com.app.model.Question"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Result"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.protocol.Resultset"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.PreparedStatementWrapper"/>
-    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.app.model.Attempt"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="com.app.dao.UserDao"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="com.app.dao.AttemptDao"/>
+    <fullyQualifiedTypeName name="com.app.admin.beans.ViewResultBean"/>
+    <fullyQualifiedTypeName name="com.app.student.beans.AttemptQuizBean"/>
+    <fullyQualifiedTypeName name="com.app.model.Questions"/>
+    <fullyQualifiedTypeName name="com.app.dao.QuestionsDao"/>
+    <fullyQualifiedTypeName name="com.app.student.beans.saveScoreBean"/>
+    <fullyQualifiedTypeName name="com.app.student.beans.ViewScoreBean"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.app.student.beans.hasAttemptedBefore"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.app.dao.AttemptDao"/>
 </qualifiedTypeNameHistroy>

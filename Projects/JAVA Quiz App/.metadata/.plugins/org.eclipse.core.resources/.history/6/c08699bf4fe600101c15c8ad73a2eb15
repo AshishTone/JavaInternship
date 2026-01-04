@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body>
+	<div class="mainBody">
+		${lb.user = null}
+		<form action="login.jsp" method="post">
+			<h1>Welcome to Quiz App</h1>
+			<h2 style="color: red">Login Dashboard</h2>
+
+			<span> Email: <input name="email" type="text"> <br>
+				<br> Password: <input name="password" type="password">
+				<br> <br> <input type="submit" value="Login">
+			</span>
+		</form>
+		
+		<br>
+	<span>Don't have accout? Register</span>
+	<a href="student/registration.jsp"> here</a> for student
+	</div>
+</body>
+</html>

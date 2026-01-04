@@ -1,0 +1,15 @@
+package com.app.admin.beans;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+
+public class adminMenuBean {
+	private String option;
+	
+	public adminMenuBean() {
+		
+	}
+}

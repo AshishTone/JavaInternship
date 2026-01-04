@@ -1,0 +1,31 @@
+package com.app.student.beans;
+
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+import com.app.dao.AttemptDao;
+import com.app.dao.QuizDao;
+import com.app.model.Attempt;
+import com.app.model.Quiz;
+
+
+public class ViewScoreBean {
+	public List<Attempt> list;
+	
+	
+	public ViewScoreBean() {
+		
+	}
+	
+	public void loadAttempts() {
+		try {
+			AttemptDao atm = new AttemptDao();
+			this.list = atm.getAllAteemptlist();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

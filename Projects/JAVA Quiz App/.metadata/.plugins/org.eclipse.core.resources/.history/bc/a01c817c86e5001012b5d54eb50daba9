@@ -1,0 +1,10 @@
+package com.app.student.beans;
+
+public class AttemptQuizBean {
+	public int quizId;
+	
+	public AttemptQuizBean() {
+		
+	}
+	
+}

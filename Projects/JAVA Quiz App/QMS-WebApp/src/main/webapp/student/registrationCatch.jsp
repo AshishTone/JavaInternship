@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:useBean id="reg"
+		class="com.app.student.beans.StudentRegistrationBean"></jsp:useBean>
+	<jsp:setProperty property="*" name="reg" />
+
+	<c:choose>
+		<c:when test="${reg.registerUser() != 0}">
+			<h1>Registration Successful!</h1>
+			<c:redirect url="../index.jsp">
+				<c:param name="msg" value="Deleted successfully" />
+			</c:redirect>
+
+			<c:redirect url="../index.jsp"></c:redirect>
+		</c:when>
+	</c:choose>
+</body>
+</html>

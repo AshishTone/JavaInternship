@@ -1,0 +1,56 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/styles.css" />
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="mainBody">
+		<h1>Admin Menu</h1>
+		<h2>Hi, ${lb.user.name}</h2>
+		<h2>What action you want to perform</h2>
+		<form action="adminMenu.jsp" method="post">
+			<input type="radio" name="option" value="1" class="radio-button">
+			<label for="1">Create Quiz</label> <br>
+			<br> <input type="radio" name="option" value="2"
+				class="radio-button"> <span>List Quizzes</span> <br>
+			<br> <input type="radio" name="option" value="3"
+				class="radio-button"> <span>Delete Quiz</span> <br>
+			<br> <input type="radio" name="option" value="4"
+				class="radio-button"> <span>View results</span> <br>
+			<br> <input type="radio" name="option" value="5"
+				class="radio-button"> <span>Logout admin</span> <br>
+			<br> <input type="submit" value="Submit">
+		</form>
+	</div>
+
+	<div>
+		<jsp:useBean id="adm" class="com.app.admin.beans.adminMenuBean"></jsp:useBean>
+		<jsp:setProperty property="*" name="adm" />
+
+		<c:choose>
+			<c:when test="${adm.getOption() == '1' }">
+				<c:redirect url="CreateQuiz.jsp"></c:redirect>
+			</c:when>
+			<c:when test="${adm.getOption() == '2' }">
+				<c:redirect url="ListQuizzes.jsp"></c:redirect>
+			</c:when>
+			<c:when test="${adm.getOption() == '3' }">
+				<c:redirect url="DeleteQuiz.jsp"></c:redirect>
+			</c:when>
+			<c:when test="${adm.getOption() == '4' }">
+				<c:redirect url="ViewResults.jsp"></c:redirect>
+			</c:when>
+			<c:when test="${adm.getOption() == '5' }">
+				${lb.user = null}
+				<c:redirect url="index.jsp"></c:redirect>
+			</c:when>
+		</c:choose>
+	</div>
+
+</body>
+</html>
